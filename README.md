@@ -1,44 +1,39 @@
-<!-- PORTFOLIO PROJECT PROFILE: maintained by the repository owner -->
-
-## Project profile and code-audit snapshot
-
-**What this is:** **skycoin-home** is a public repository described as: “Landing page and home section #SkyCoin4444 #AI #Blockchain #DevOps #Innovation” Its dominant language signals are **TypeScript (8 files)**.
-
-**Why it has value:** Its value is best understood through the implementation evidence currently present in the repository: **27 tracked files** were observed in the shallow audit, with the source structure and existing documentation providing the project’s specific context. This README does not treat a prototype, experiment, or archive as a production system without supporting evidence.
-
-**Implementation evidence:** No test-related file was detected by filename heuristics.; 1 dependency or package manifest(s) detected; 3 build/CI/infrastructure signal(s) detected; and 3 documentation or governance file(s) detected. Test filenames observed include none detected. Dependency or package files include `package.json`. Build, CI, or infrastructure signals include `Dockerfile`, `docker-compose.yml`, `.github/workflows/ci.yml`.
-
-**Current status:** The repository is tracked on the `main` branch. The existing source tree, configuration, tests, workflows, and documentation remain authoritative for supported behavior and maturity. A code audit is not a production-readiness certification, and the presence of a test or workflow file does not establish that all checks pass.
-
-**Relationship to the wider portfolio:** This repository is one focused component of the broader Skyler Blue Spillers portfolio across AI, software engineering, cloud and DevOps, cybersecurity, blockchain, finance, education, social systems, and creative work. It may provide a service boundary, implementation pattern, experiment, archive, or reusable idea for related repositories. Treat repositories as technical dependencies only where documented interfaces and verified project requirements support that relationship.
-
-**Quality and security note:** No obvious secret-like pattern was detected by the limited static scan; this is not a substitute for a security audit. No TODO/FIXME marker was detected in the scanned text files.
-
----
-
 # Skycoin Home
 
-![GitHub stars](https://img.shields.io/github/stars/skylerblue333/skycoin-home?style=flat-square)
-![GitHub license](https://img.shields.io/github/license/skylerblue333/skycoin-home?style=flat-square)
+Landing-page / home-surface component for the SKYCOIN4444 ecosystem.
 
-## 🌟 Overview
-**skycoin-home** is a professional-grade project within the **SkyCoin4444** ecosystem. It focuses on delivering high-value solutions in the domain of **TypeScript**.
+## Current repository evidence
 
-## 🚀 Key Features
-- **Scalable Architecture**: Designed for enterprise-level growth and performance.
-- **Modern Standards**: Implements best practices for clean code and maintainability.
-- **Robust Integration**: Built to work seamlessly within modern cloud-native environments.
+- Public TypeScript repository on `main`.
+- 27 tracked files were observed in the current audit snapshot.
+- `package.json`, Docker configuration, Docker Compose configuration, and GitHub Actions CI configuration are present.
+- No test-related file was identified by the current filename-based audit.
 
-## 🛠️ Technology Stack
-- **Primary Domain**: TypeScript
-- **Ecosystem**: SkyCoin4444 Digital Platform
+## Ecosystem role
 
-## 📂 Structure
-The project is organized into a modular structure to ensure clarity and ease of development.
+**Frontend → Core Platform Home / Landing Surface**
 
-## 👨‍💻 Author
-**Skyler Blue Spillers**
-*Professional Chess Player & Software Engineer*
+This repository can provide the public/home experience or reusable frontend patterns for the canonical SKYCOIN4444 platform. It should not become a separate backend or duplicate platform service.
 
----
-*Powered by SkyCoin4444*
+## Truthful status
+
+- Source/configuration: **present**
+- Canonical frontend integration: **pending comparison with the other SKYCOIN4444 frontend repositories**
+- Automated tests: **not established by the current repository evidence**
+- Production deployment: **not verified**
+
+The current `package.json` contains placeholder validation scripts and a build command that suppresses TypeScript failures. These commands are not treated as proof that tests, linting, or builds pass. They are technical debt to replace with real validation before promotion.
+
+## Consolidation approach
+
+Preserve the existing UI and configuration. Compare this repository with `skycoin-mobile`, the larger frontend repositories, and the canonical platform before introducing another home-page implementation. Promote the strongest verified UI and shared components into the canonical frontend boundary rather than maintaining duplicate landing surfaces.
+
+If a genuine frontend capability is missing, prefer established open-source projects with compatible licenses instead of reinventing mature primitives. Preserve required attribution and license notices when adapting third-party code.
+
+## Production requirements
+
+Before production promotion, establish a real frontend build, real tests, strict TypeScript validation, accessibility checks, dependency/security checks, reproducible CI, environment configuration, and an end-to-end deployment check against the canonical platform.
+
+## License
+
+MIT, subject to the checked-in license and applicable third-party dependency licenses.
